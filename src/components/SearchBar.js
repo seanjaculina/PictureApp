@@ -29,6 +29,7 @@ class SearchBar extends React.Component{
                 </form>
             </div>)
     }
+
 }
 
 export default SearchBar;
