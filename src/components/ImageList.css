@@ -8,8 +8,13 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 
     grid-gap: 10px;     /* 10px between each image within the grid */
+
+    grid-auto-rows: 150px; /* auto rows will define how tall each row or cell will be rendered on the page */
 }
 
 .image-list img{
+    grid-row-end: span 3; /* each element will be allocated 3 cells worth of space */
+
+
     width: 250px;       /* setting each img width to 250px  */
 }
