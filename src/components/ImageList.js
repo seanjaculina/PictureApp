@@ -9,7 +9,6 @@ const ImageList = (props) =>{
     });
 
 
-    console.log(props);
     return(
         <div className="image-list">{images}</div>
     );
